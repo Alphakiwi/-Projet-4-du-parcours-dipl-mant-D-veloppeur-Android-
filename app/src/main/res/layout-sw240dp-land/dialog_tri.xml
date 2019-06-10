@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+
+
+        android:id="@+id/radioGroupTri"
+
+        android:layout_width="150dp"
+
+        android:layout_height="123dp"
+
+
+        android:checkedButton="@+id/triDate"
+        android:gravity="center"
+        android:padding="3dip">
+
+
+        <RadioButton
+
+            android:id="@+id/triDate"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Trier par date." />
+
+        <RadioButton
+
+            android:id="@+id/triLieu"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="Trier par lieu." />
+
+
+
+
+    </RadioGroup>
+
+
+
+
+</LinearLayout>

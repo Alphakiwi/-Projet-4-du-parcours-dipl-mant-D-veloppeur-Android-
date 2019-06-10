@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EEE"
+    android:layout_height="match_parent"
+    tools:context=".reunion_list.DetailReunionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_anchor="@+id/reunion"
+        app:layout_anchorGravity="left|top">
+
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/fleche" />
+
+
+        <ImageView
+            android:id="@+id/imageAvatar"
+            android:layout_width="598dp"
+            android:layout_height="346dp"
+            android:text="Réunion A" />
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="125dp"
+            android:fontFamily="monospace"
+            android:gravity="left"
+            android:text="Réunion A"
+            android:textColor="#FFF"
+            android:textSize="35dp" />
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/reunion"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/border"
+        android:gravity="left"
+        android:padding="5dp"
+        android:text="Salle : Réunion A"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/dateEtHeure"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="89dp"
+        android:gravity="left"
+        android:paddingLeft="35dp"
+        android:text="le 01/01/2019 à 14h00"
+        android:textColor="#444"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/adresseMail"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="35dp"
+        android:gravity="left"
+        android:paddingLeft="35dp"
+        android:text="maxime@lamzone.com, alex@lamzone.fr, maxime@lamzone.com, alex@lamzone.fr, maxime@lamzone.com, alex@lamzone.fr..."
+        android:textColor="#444"
+        android:textSize="15dp" />
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignBottom="@+id/dateEtHeure"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        android:src="@drawable/horloge" />
+
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/image"
+        android:layout_marginBottom="54dp"
+        android:src="@drawable/wwwrose" />
+
+
+    <TextView
+        android:id="@+id/Apropos"
+        android:layout_width="344dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/description"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/border"
+        android:gravity="left"
+        android:padding="5dp"
+        android:text="Sujet de la réunion :"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="353dp"
+        android:layout_height="253dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginTop="93dp"
+
+
+        android:background="@drawable/border"
+        android:fadeScrollbars="false"
+        android:gravity="left"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        android:text="Nous allons aborder plus en détail les diffèrentes étapes du projet sur Mario."
+        android:textColor="#444"
+        android:textSize="18dp" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

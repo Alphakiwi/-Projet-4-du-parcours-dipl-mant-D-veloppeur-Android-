@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/sujet"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:hint="Bowser"
+        android:textSize="25dp"
+        android:inputType="text" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sujet"
+
+        android:layout_below="@+id/sujet"
+        android:text="Choissisez la salle de réunion :"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hourText"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-168dp"
+        android:layout_marginStart="345dp"
+        android:text="01/01/2019"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/hourText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="372dp"
+        android:layout_marginTop="168dp"
+        android:text="14h00"
+        android:textSize="25dp" />
+
+    <RadioGroup
+
+
+        android:id="@+id/radioGroup"
+
+        android:layout_width="150dp"
+
+        android:layout_height="123dp"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="94dp"
+        android:checkedButton="@+id/radio"
+        android:gravity="center"
+        android:padding="3dip">
+
+
+        <RadioButton
+
+            android:id="@+id/radio"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:textSize="25dp"
+
+
+            android:text="Réunion A" />
+
+        <RadioButton
+
+            android:id="@+id/radio2"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:textSize="25dp"
+
+
+            android:text="Réunion B" />
+
+        <RadioButton
+
+            android:id="@+id/radio3"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:textSize="25dp"
+
+
+            android:text="Réunion C" />
+
+
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/textAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="236dp"
+        android:ems="10"
+
+        android:inputType="textMultiLine"
+        android:text="Maxime,Alex"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
